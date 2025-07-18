@@ -56,7 +56,6 @@ cd backend
 # Create .env file with your MongoDB URI and JWT secret
 # Example .env:
 # MONGO_URI=your_mongodb_connection_string
-# JWT_SECRET=your_jwt_secret
 npm install
 npm start
 ```
