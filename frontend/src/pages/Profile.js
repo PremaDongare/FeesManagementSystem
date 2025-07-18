@@ -22,7 +22,7 @@ const Profile = ({ token, user, setUser }) => {
     setSuccess('');
     setLoading(true);
     try {
-      const res = await fetch(`${API}/api/profile`, {
+      const res = await fetch(`${API}/profile`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -55,7 +55,7 @@ const Profile = ({ token, user, setUser }) => {
     setSuccess('');
     setLoading(true);
     try {
-      const res = await fetch(`${API}/api/profile/pay`, {
+      const res = await fetch(`${API}/profile/pay`, {
         method: 'POST',
         headers: {
           Authorization: `Bearer ${token}`

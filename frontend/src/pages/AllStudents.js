@@ -17,7 +17,7 @@ const AllStudents = ({ token }) => {
   const fetchStudents = async () => {
     setLoading(true);
     try {
-      const res = await fetch(`${API}/api/students`, {
+      const res = await fetch(`${API}/students`, {
         headers: { Authorization: `Bearer ${token}` }
       });
 
